@@ -1,0 +1,283 @@
+* {
+    font-family: Poppins, sans-serif;
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #39289F;
+    --white: #fff;
+}
+
+body {
+    width: 100%;
+    background-color: var(--blue);
+}
+
+.navbar ul {
+    justify-content: space-between;
+    gap: 37px;
+    text-decoration: none;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+header {
+    background-color: var(--blue);
+    position: fixed;
+    z-index: +2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    height: max-content;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 63.23px;
+    padding-top: 40px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+header .navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.container1 {
+    width: 527px;
+    margin-bottom: 179px;
+}
+
+.container1 button {
+    border-radius: 40px;
+    color: var(--white);
+    padding-inline: 30px;
+    padding-block: 15px;
+    border: none;
+    background-color: #E87D0E;
+}
+
+.container1 a {
+    text-decoration: none;
+}
+
+.inputBox {
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    width: 1170px;
+    background-color: #1C140F;
+    height: 189px;
+    border-radius: 15px;
+    padding-left: 55px;
+    padding-right: 50px;
+}
+
+.inputBoxText{
+    width: 516px;
+}
+
+.inputBoxText{
+    display: flex;
+    flex-direction: column;
+    margin:auto 0;
+}
+
+.inputBoxText p {font-size: 17px;}
+
+.inputBoxText h1{
+    font-size: 30px;
+    font-weight: medium;
+    margin-bottom:10px ;
+}
+
+.input {
+    border-radius: 8px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 385.68px;
+    height: 48px;
+    padding-left: 20.55px;
+    padding-right: 6.24px;
+    background-color: var(--white);
+}
+
+.input input {
+    color:black;
+    border: none;
+    height: 100%;
+    width: 70%;
+    outline: none;
+}
+
+.input{
+
+color: #000;
+    display: flex;
+    margin:auto;
+    margin-right: 0;
+}
+
+footer{ 
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+    background-color: #070707;
+}
+
+.footerText{
+    display: flex;
+    margin-top: 79px;
+    margin-bottom: 53px;
+    display: flex;
+    margin: 0 auto;
+    padding: 65px;
+}
+
+.textWrapper1{
+    width: 372px;
+    margin-left: 100px;
+    margin-right: 78px;
+}
+
+.textWrapper1 p{
+    margin-top:15px ;
+    margin-bottom:25px ;
+}
+
+.textWrapper2 h1{
+    font-weight: medium;
+    margin-bottom:15px;
+    font-size: 17px;
+}
+
+.textWrapper2{
+    width: 88px;
+    margin-right: 144px;
+}
+
+.textWrapper3{
+    width: 282px;
+    margin-right:83px;
+}
+
+.textWrapper3 h1{
+    font-weight: medium;
+    font-size: 17px;
+}
+
+.textWrapper3 p:nth-child(2){
+    margin-top: 30px; 
+    margin-bottom: 11px;
+}
+
+.socialWrapper{
+    display: flex;
+    margin-top: 130px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    border-top: solid 1px wheat;
+    padding-block: 30px;
+}
+
+.section1{
+
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 186px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1 p span{
+    color:#E47500;
+}
+
+.section1Text p {
+    margin-bottom: 15px;
+}
+
+.section1 h1{
+    font-size: 33px;
+    line-height: 180.5%;
+    font-weight: semibold;
+}
+
+.section1 h2{
+    font-weight: medium;
+    font-size: 16px;
+    margin-top: 13px;
+}
+
+.section1 .worldMap{
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 62px ;
+}
+
+.section1Text{
+    margin-bottom: 93px;
+}
+
+.social{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.social p{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contactWrapper{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+
+
+.phone{
+    justify-content: space-between;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    padding-inline: 100px;
+    border-inline:solid 1px var(--white) ;
+
+}
+
+.phone img{
+width: 30px;
+height: 30px;
+}
+
+.location{
+    justify-content: space-between;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+.inputSection{
+    margin-top:150px ;
+}
+
+.formSection{
+    width: 100%;
+}

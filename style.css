@@ -1,55 +1,492 @@
-*{
+* {
+    font-family: Poppins, sans-serif;
     color: var(--white);
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
-:root{
+
+:root {
     --blue: #39289F;
     --white: #fff;
 }
 
-main{
-    padding: 147px;
-}
-
-body{
+body {
+    width: 100%;
     background-color: var(--blue);
 }
-header{
-    height: max-content;
+
+.navbar ul {
+    justify-content: space-between;
+    gap: 37px;
+    text-decoration: none;
+    font-size: 16px;
+    list-style-type: none;
 }
-header h1{
-margin-top: 74px;
-font-family: "Poppins", sans-serif;
-font-weight: 800 ;
+
+header {
+    background-color: var(--blue);
+    position: fixed;
+    z-index: +2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    height: max-content;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 63.23px;
+    padding-top: 40px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+header .navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.container1 {
+    width: 527px;
+    margin-bottom: 179px;
+}
+
+.container1 button {
+    border-radius: 40px;
+    color: var(--white);
+    padding-inline: 30px;
+    padding-block: 15px;
+    border: none;
+    background-color: #E87D0E;
+}
+
+.container1 a {
+    text-decoration: none;
+}
+
+#section1 {
+    margin-bottom: 179px;
+    margin-top: 120px;
+    margin-left: 150px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 94px;
+}
+
+.trendgames {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 129px;
+}
+
+.section2 {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar ul :nth-child(5) {
+    background-color: #E87D0E;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 13px;
+
+}
+
+
+.trendgamesHeader {
+    text-align: left;
+}
+
+.container1 h2 {
+    font-size: 20;
+    font-weight: bold;
+    color: #E87D0E;
+    margin-bottom: 17px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+.container1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.container1 p {
+    font-size: 16px;
+    font-weight: medium;
+    margin-bottom: 50px;
 }
 
 .controllerAndEngines {
     position: absolute;
+
+    z-index: 2;
     top: 0;
-    right: 0; 
+    right: 160px;
+    width: 578px;
+    height: 761px;
 }
 
-
-
-.section2{
-    width: max-content;
-    margin: 0 auto;
-    
-
-}
-
-.trendgames{
-    margin: 0 auto;
-}
-
-.imageWrapper{
+.imageWrapper {
     display: flex;
+    justify-content: center;
     gap: 47px;
 }
 
-.imageWrapper .gameImage{
+.imageWrapper .gameImage {
     width: 250px;
     height: 277px;
+}
+
+.trendgamesHeader {
+    display: flex;
+    margin-bottom: 57px;
+    justify-content: space-between;
+}
+
+.followers {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.text {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 67px;
+    text-align: center;
+    margin: 0 auto;
+    width: 826px;
+    justify-content: center;
+}
+
+main {
+    padding-inline: 147px;
+}
+
+.gameBanner {
+    border: 5px;
+    margin-bottom: 157px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameBanner h1 {
+    font-size: 30px;
+}
+
+.gameBanner p {
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 46px;
+    width: 545px;
+}
+
+.gameBanner banner {
+    width: 100%;
+    height: auto;
+}
+
+.gameBanner .ballsWrapper {
+    position: relative;
+    left: 825px;
+    top: 293px;
+    z-index: -1;
+}
+
+.section3 {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+               url('./assets/stacksWrapperBG.jpg') no-repeat;
+    width: 100%;
+    height: 881px;
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3Text {
+    margin-top: 80px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 h1 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 836px;
+}
+
+.section3Text p {
+    font-size: 16px;
+    width: 820px;
+}
+
+.stackWrapper li {
+    text-align: center;
+}
+
+.firstLineUL,
+.secondLineUL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.firstLineUL {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.firstLineUL p,
+.secondLineUL p {
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.section4 {
+    margin-bottom: 105px;
+    margin-top: 150px;
+}
+
+.section4Text {
+    text-align: center;
+}
+
+.section4Text h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.section4Text p {
+    font-size: 14px;
+}
+
+.imageGrid {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 71px;
+    margin-bottom: 72px;
+}
+
+
+.image {
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.seeAll {
+    display: flex;
+    flex-direction: column; 
+    max-height: 57px;
+    max-width: 140px;
+    border-radius: 10px;
+    padding-inline: 30px;
+    padding-block: 10px;
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.seeAll p {
+    margin: 0 auto;
+    
+}
+
+.section4 .seeAll {
+    display: flex;
+    margin: 0 auto;
+}
+
+.inputBox {
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    width: 1170px;
+    background-color: #1C140F;
+    height: 189px;
+    border-radius: 15px;
+    padding-left: 55px;
+    padding-right: 50px;
+}
+
+.inputBoxText{
+    width: 516px;
+}
+
+.inputBoxText{
+    display: flex;
+    flex-direction: column;
+    margin:auto 0;
+}
+
+.inputBoxText p {font-size: 17px;}
+
+.inputBoxText h1{
+    font-size: 30px;
+    font-weight: medium;
+    margin-bottom:10px ;
+}
+
+.input {
+    border-radius: 8px;
+    justify-content: space-between;
+    display: flex;
+    
+    align-items: center;
+    width: 385.68px;
+    height: 48px;
+    padding-left: 20.55px;
+    padding-right: 6.24px;
+    background-color: var(--white);
+}
+
+.input input {
+    color:black;
+    border: none;
+    height: 100%;
+    width: 70%;
+    outline: none;
+}
+
+.input{
+
+color: #000;
+    display: flex;
+    margin:auto;
+    margin-right: 0;
+}
+
+.section5Text{
+    margin: 0 auto;
+    width: 1170px; ;
+    justify-content: flex-start;
+    margin-bottom: 74px;
+}
+
+.section5Text h1{
+    margin-bottom: 32px;
+    font-size: 30px;
+
+}
+
+.section5Text p{
+    width: 545px;
+  
+}
+
+.input button{
+    width:105px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius:8px;
+    border: none;
+    background-color: #DC7000;
+    height: 37px;
+}
+
+.section5{
+    margin-bottom:163px ;
+}
+
+footer{ 
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+    background-color: #070707;
+}
+
+
+.footerText{
+    display: flex;
+    margin-top: 79px;
+    margin-bottom: 53px;
+    display: flex;
+    margin: 0 auto;
+    padding: 65px;
+
+    
+}
+.textWrapper1{
+    width: 372px;
+    margin-left: 100px;
+    margin-right: 78px;
+}
+
+.textWrapper1 p{
+    margin-top:15px ;
+    margin-bottom:25px ;
+}
+
+.textWrapper2 h1{
+    font-weight: medium;
+    margin-bottom:15px;
+    font-size: 17px;
+}
+
+.textWrapper2{
+    width: 88px;
+    margin-right: 144px;
+}
+
+hr{
+    height: 0.8px;
+}
+
+.textWrapper2{
+    line-height: 186.3%;
+    
+}
+
+.textWrapper3{
+    width: 282px;
+    margin-right:83px;
+}
+
+.textWrapper3 h1{
+    font-weight: medium;
+    font-size: 17px;
+}
+
+.textWrapper3 p:nth-child(2){
+    margin-top: 30px; 
+    margin-bottom: 11px;
+}
+
+.socialWrapper{
+display: flex;
+margin-top: 130px;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    border-top: solid 1px wheat;
+    padding-block: 30px;
 }
