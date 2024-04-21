@@ -1,12 +1,55 @@
 *{
+    color: var(--white);
    margin: 0;
    padding: 0;
    box-sizing: border-box; 
 }
 :root{
     --blue: #39289F;
+    --white: #fff;
+}
+
+main{
+    padding: 147px;
 }
 
 body{
-    background-color: #39289F;
+    background-color: var(--blue);
+}
+header{
+    height: max-content;
+}
+header h1{
+margin-top: 74px;
+font-family: "Poppins", sans-serif;
+font-weight: 800 ;
+}
+
+.controllerAndEngines {
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+
+
+
+.section2{
+    width: max-content;
+    margin: 0 auto;
+    
+
+}
+
+.trendgames{
+    margin: 0 auto;
+}
+
+.imageWrapper{
+    display: flex;
+    gap: 47px;
+}
+
+.imageWrapper .gameImage{
+    width: 250px;
+    height: 277px;
 }
