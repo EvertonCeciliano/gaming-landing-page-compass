@@ -9,12 +9,13 @@
 
 :root {
     --blue: #39289F;
-    --white: #fff;
+    --white: #ffffff;
 }
 
 body {
     width: 100%;
-    background-color: var(--blue);
+
+    background: linear-gradient(176.32deg, #2211E7 -26.24%, #383837 96.98%);
 }
 
 .navbar ul {
@@ -25,10 +26,8 @@ body {
     list-style-type: none;
 }
 
-header {
-    background-color: var(--blue);
-    position: fixed;
-    z-index: +2;
+header { 
+
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -47,23 +46,20 @@ header .navbar ul {
     align-items: center;
 }
 
-.container1 {
-    width: 527px;
-    margin-bottom: 179px;
-}
-
-.container1 button {
-    border-radius: 40px;
-    color: var(--white);
-    padding-inline: 30px;
-    padding-block: 15px;
-    border: none;
-    background-color: #E87D0E;
-}
-
-.container1 a {
+header a {
     text-decoration: none;
 }
+
+.navbar ul :nth-child(5) {
+    background-color: #E87D0E;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 13px;
+
+}
+
+
 
 .inputBox {
     display: flex;
@@ -276,8 +272,175 @@ height: 30px;
 
 .inputSection{
     margin-top:150px ;
+    
+}
+
+.formSection .formText{
+    margin: 0 auto;
+    display: flex;
+    margin-top:58px ;
+    flex-direction: column;
+    text-align: center;
 }
 
 .formSection{
     width: 100%;
+    margin-top: 147px;
+    background-color: #1C140F;
+    height: 858px;
 }
+
+form{
+    margin: 0 auto;
+    width: 671px;
+}
+
+form label {
+    color:#4F4F4F;
+    font-size: 14px;
+    font-weight: medium;
+}
+
+form input, textarea{
+    outline: none;
+    padding: 5px;
+    border: 0.06px solid #CECECE;
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.07) ;
+}
+
+form input{
+    height: 56px;
+    padding: 5px;
+}
+
+.formText h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+form{
+    margin-top:79px;
+}
+
+.formText p{
+    font-size: 13px;
+    font-weight: medium;
+}
+.nameForms{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 27px;
+}
+
+.nameForms input{
+    width:322px;
+}
+
+.nameForms .inputwrapper {
+    display: flex;   
+    flex-direction: column;
+}
+
+.emailForm .inputwrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailForm{
+    margin-bottom: 20px;
+}
+
+.textareaForm .inputwrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.textareaForm textarea{
+    height:232px ;
+}
+
+form button{
+    cursor: pointer;
+    background-color: #E47500;
+    height: 57px;
+    display: flex;
+    margin-left: 478px;
+    margin-top: 50px;
+    width: 193px;
+    line-height: 204.4%;
+    border: none;
+    border-radius:10px ;
+    justify-content: center;
+    align-items: center;
+}
+    
+.formSection{
+    background-image: url('./assets/lineTOP.svg'), url('./assets/lineBOTTOM.svg');
+    background-position: top right, bottom left;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.inputSection{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: min-content;
+    margin-block:150px ;
+}
+
+.TEXT{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 74px;
+}
+
+.TEXT h1{
+    margin-bottom:32px ;
+    font-size: 30px;
+}
+
+.TEXT p{
+    width: 545px;
+}
+.input button{
+    width:105px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius:8px;
+    border: none;
+    background-color: #DC7000;
+    height: 37px;
+}
+
+.navbar li a:hover {
+    color: #949494;
+}
+
+.input button:hover {
+    background-color: #4d6089;
+}
+
+.navbar ul :nth-child(5):hover {
+    background-color: #4d6089;
+}
+
+.seeAll:hover {
+    background-color: #4d6089;
+}
+
+.container1 button:hover {
+    background-color: #4d6089;
+}
+
+.textWrapper2 p a {
+    text-decoration: none;
+}
+
+.textWrapper2 p a:hover{
+    color:#949494;
+}
+
+form button:hover{
+    background-color: #4d6089;
+}
+
